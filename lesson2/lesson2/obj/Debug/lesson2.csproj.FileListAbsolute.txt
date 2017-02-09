@@ -4,3 +4,9 @@ D:\logos progect\lesson2\lesson2\bin\Debug\lesson2.exe
 D:\logos progect\lesson2\lesson2\bin\Debug\lesson2.pdb
 D:\logos progect\lesson2\lesson2\obj\Debug\lesson2.exe
 D:\logos progect\lesson2\lesson2\obj\Debug\lesson2.pdb
+D:\logos progect\logos-C--course\lesson2\lesson2\bin\Debug\lesson2.exe.config
+D:\logos progect\logos-C--course\lesson2\lesson2\obj\Debug\lesson2.exe
+D:\logos progect\logos-C--course\lesson2\lesson2\obj\Debug\lesson2.pdb
+D:\logos progect\logos-C--course\lesson2\lesson2\bin\Debug\lesson2.exe
+D:\logos progect\logos-C--course\lesson2\lesson2\bin\Debug\lesson2.pdb
+D:\logos progect\logos-C--course\lesson2\lesson2\obj\Debug\lesson2.csprojResolveAssemblyReference.cache
