@@ -47,6 +47,7 @@ namespace homework___matrix_1__
                 {
                     Console.Write("{0}\t", mat1[i, j]);
                 }
+                Console.WriteLine(); 
             }
             Console.WriteLine("Sum = " + sum);
             Console.WriteLine();
