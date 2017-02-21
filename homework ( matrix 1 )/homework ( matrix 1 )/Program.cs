@@ -24,9 +24,11 @@ namespace homework___matrix_1__
                 {
                     Console.WriteLine("Enter [{0},{1}] elements", i,j);
                     mat1[i,j] = int.Parse(Console.ReadLine());
-                    
+                   
                 }
             }
+            
+            
             for (int i = 0; i < s; i++)
             {
                 for (int j = 0; j < l; j++)
@@ -39,7 +41,15 @@ namespace homework___matrix_1__
                     
                 } 
             }
+            for (int i = 0; i < s; i++)
+            {
+                for (int j = 0; j < l; j++)
+                {
+                    Console.Write("{0}\t", mat1[i, j]);
+                }
+            }
             Console.WriteLine("Sum = " + sum);
+            Console.WriteLine();
 
         }
     }
