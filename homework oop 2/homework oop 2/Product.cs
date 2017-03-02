@@ -8,22 +8,28 @@ namespace homework_oop_2
 {
     class Product
     {
-        public   int price ;
-        public   string category;
-        public   string name;
-        //public Product(int price  = 0 , string categoty = "Unknown" , string name = "Unknown")
-        //{
-        //    this.price = price;
-        //    category = category;
-        //    this.name = name;
-        //}
-        public void  PrintInfo(/*int price, string category, string name*/)
+
+
+        public double price;
+        public string category;
+        public string name;
+
+        public Product(int price, string categotry , string name )
+        {
+            this.price = price;
+            this.category = categotry;
+            this.name = name;
+        }
+        public Product()
+        {
+
+        }
+        public void PrintInfo()
         {
             Console.WriteLine("Price = {0}\nCategory = {1}\nName = {2}\n ", price, category, name);
-            //return price;
-            //return category;
-            //return name; 
+
         }
+
 
 
 

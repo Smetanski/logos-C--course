@@ -13,7 +13,7 @@ namespace homework_3___oop_
         public byte height; 
         public byte  age ;
         public string male;
-        public string IsAlive;
+        public string IsAlive;  
         public Person() { } 
         public Person(string name)
         {
@@ -32,7 +32,15 @@ namespace homework_3___oop_
         }
         public Person(string name , string surname , byte height , byte age)
         {
-
+            this.name = name;
+            this.surname = surname;
+            this.height = height;
+            this.age = age; 
         }
+        public void PersonInfo()
+        {
+            Console.WriteLine("Name = {0}\nSurname = {1}\nHeight = {2}\nAge = {3}", name , surname , height , age  );
+        }
+        
     }
 }
