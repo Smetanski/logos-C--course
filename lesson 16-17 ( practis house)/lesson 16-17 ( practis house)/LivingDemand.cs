@@ -9,18 +9,16 @@ namespace lesson_16_17___practis_house_
     class LivingDemand
     {
         public static float pricepermeter = 250;
-        public float livingarea;
-        public float extarea;
         public  float area;
         public  float price;
-        public int numofBeds; 
+        public int numofBeds;
         public float Price
         {
             get { return price; }
             set
             {
-                area = livingarea + extarea;
-                price = pricepermeter * area; 
+                price = value;
+                price = pricepermeter * area;
             }
         }
         public int  NumofBeds
@@ -28,29 +26,42 @@ namespace lesson_16_17___practis_house_
             get { return numofBeds; }
             set
             {
+                numofBeds = value;
                 if (area < 50)
                 {
-                    value = 1; 
+                    value = 1;
+                    numofBeds = value;
                 }
                else if (area <= 100)
                 {
-                    value = 2; 
+                    value = 2;
+                    numofBeds = value;
                 }
-                else if (area >= 200)
+                else if (area <= 200)
                 {
-                    value = 3; 
+                    value = 3;
+                    numofBeds = value;
                 }
                 if (area > 200)
                 {
                     value = 5;
+                    numofBeds = value;
                 }
-                else numofBeds = value; 
+              
             }
 
         }
-        public LivingDemand(float area , float livingarea ,float extarea , float numofBeds , float price  )
+        public LivingDemand(float area ,float numofBeds , float price )
         {
-          
+            this.price = Price; 
+        }
+        public LivingDemand()
+        {
+
+        }
+        public void PrintInfolive()
+        {
+            Console.WriteLine("Area = {0}\nNum of Beds = {1}\nPrice = {2}", area, numofBeds, price); 
         }
     }
 }

@@ -9,7 +9,8 @@ namespace lesson_16_17___practis_house_
     class House : LivingDemand 
     {
         private  string district;
-       
+        //public float externalarea;
+        public float numofflats;
 
         public string District
         {
@@ -25,14 +26,14 @@ namespace lesson_16_17___practis_house_
                 }
                 else if (district == "Shiv")
                 {
-                    value = "nor";
+                    value = "norm";
                 }
                 else district = value;  
             }
         }
-        public House(string distr = "Unknown" , float area = 0  , float extarea = 0 , float numofbed = 0 ,float price = 0 , float livingarea = 0   ):base(area , extarea , livingarea ,numofbed , price)
+        public House(float price = 0, float area = 0 , string distr = "Unknown"   , float extarea = 0 , float numofBeds = 0 ) :base(area ,numofBeds , price)
         {
-
+            this.price = price; 
         }
     }
 }
