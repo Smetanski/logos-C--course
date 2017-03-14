@@ -43,8 +43,8 @@ namespace homework_oop___vector_
         }
         public float Magn
         {
-            get { return magn ; }
-            set { magn = (float)Math.Sqrt(X * X + Y * Y); }
+            get { return magn = (float)Math.Sqrt(X * X + Y * Y); }
+           
         }
 
         public void Pointnumber()
@@ -54,7 +54,7 @@ namespace homework_oop___vector_
             X = float.Parse(Console.ReadLine());
             Console.Write("Y - ");
             Y = float.Parse(Console.ReadLine());
-            magn = (float)Math.Sqrt(X * X + Y * Y);
+           // magn = (float)Math.Sqrt(X * X + Y * Y);
         }
 
         public void PrintInfo()

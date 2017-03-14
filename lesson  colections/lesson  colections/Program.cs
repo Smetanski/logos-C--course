@@ -60,10 +60,12 @@ namespace lesson__colections
 
             //});
             //vecs.Sort();
-            public bool ChecString (string line )
+        }
+            public bool ChecString(string line)
         {
             return false;
         }
-        }
     }
+        
+    
 }
